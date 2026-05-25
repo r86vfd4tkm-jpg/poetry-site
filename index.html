@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mac — Poems &amp; Collections</title>
-  <meta name="description" content="The poetry of Mac — warm, quiet poems collected into books. Read excerpts and find every collection on Apple Books." />
+  <title>Marcelo Rioja — Poesía · Poetry · Poesie</title>
+  <meta name="description" content="The poetry of Marcelo Rioja — love poems that cross time and distance. Every collection, in Spanish and English, available on Apple Books." />
 
-  <!-- Open Graph / social preview -->
-  <meta property="og:title" content="Mac — Poems &amp; Collections" />
-  <meta property="og:description" content="Warm, quiet poems collected into books. Read excerpts and find every collection on Apple Books." />
+  <meta property="og:title" content="Marcelo Rioja — Poetry" />
+  <meta property="og:description" content="Love poems that cross time and distance. Every collection, available on Apple Books." />
   <meta property="og:type" content="website" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,14 +20,19 @@
   <!-- ===== Navigation ===== -->
   <header class="nav" id="top">
     <div class="container nav__inner">
-      <a href="#top" class="nav__brand">Mac<span class="nav__brand-dot">.</span></a>
+      <a href="#top" class="nav__brand">Marcelo Rioja<span class="nav__brand-dot">.</span></a>
       <nav class="nav__links" aria-label="Primary">
-        <a href="#poems">Poems</a>
-        <a href="#books">Collections</a>
-        <a href="#about">About</a>
-        <a class="btn btn--small" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener">Apple&nbsp;Books</a>
+        <a href="#books" data-i18n="nav_books">Libros</a>
+        <a href="#reviews" data-i18n="nav_reviews">Reseñas</a>
+        <a href="#about" data-i18n="nav_about">Sobre mí</a>
+        <span class="lang" role="group" aria-label="Language">
+          <button class="lang__btn is-active" data-lang="es">ES</button>
+          <button class="lang__btn" data-lang="en">EN</button>
+          <button class="lang__btn" data-lang="de">DE</button>
+        </span>
+        <a class="btn btn--small" href="https://books.apple.com/us/author/marcelo-rioja/id1832253609" target="_blank" rel="noopener">Apple&nbsp;Books</a>
       </nav>
-      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -37,155 +41,185 @@
   <!-- ===== Hero ===== -->
   <section class="hero">
     <div class="container hero__inner">
-      <p class="hero__eyebrow">Poetry &middot; Quiet things, said gently</p>
-      <h1 class="hero__title">Words worth<br />slowing down for.</h1>
-      <p class="hero__lede">
-        I write small poems about light, distance, and the ordinary tenderness of
-        everyday life. Each collection is gathered here &mdash; read a few, then
-        carry the rest with you on Apple&nbsp;Books.
-      </p>
+      <p class="hero__eyebrow" data-i18n="hero_eyebrow">Poesía · Versos de amor y distancia</p>
+      <h1 class="hero__title" data-i18n-html="hero_title">Palabras que navegan<br />hacia tu corazón.</h1>
+      <p class="hero__lede" data-i18n="hero_lede">Soy Marcelo Rioja. Escribo poemas de amor, nostalgia y la belleza del universo — colecciones que cruzan el tiempo y la distancia. Aquí están todos mis libros, disponibles en Apple&nbsp;Books.</p>
       <div class="hero__actions">
-        <a class="btn" href="#poems">Read a few poems</a>
-        <a class="btn btn--ghost" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener">Browse on Apple&nbsp;Books</a>
+        <a class="btn" href="#books" data-i18n="hero_cta_books">Ver los libros</a>
+        <a class="btn btn--ghost" href="https://books.apple.com/us/author/marcelo-rioja/id1832253609" target="_blank" rel="noopener" data-i18n="cta_apple">Comprar en Apple&nbsp;Books</a>
       </div>
     </div>
     <div class="hero__glow" aria-hidden="true"></div>
   </section>
 
-  <!-- ===== Featured poems ===== -->
-  <section class="section" id="poems">
-    <div class="container">
-      <header class="section__head">
-        <p class="section__kicker">Selected poems</p>
-        <h2 class="section__title">A taste of the page</h2>
-        <p class="section__sub">A handful of pieces to read before you take the whole collection home.</p>
-      </header>
-
-      <div class="poems">
-        <article class="poem">
-          <h3 class="poem__title">Morning, Unhurried</h3>
-          <p class="poem__body">
-            The kettle hums its single note,<br />
-            steam unspooling like a thought<br />
-            I haven't finished thinking yet.<br />
-            Outside, the street is still asleep &mdash;<br />
-            and for a moment, so am I,<br />
-            content to let the daylight keep.
-          </p>
-          <p class="poem__meta">from <em>Small Hours</em></p>
-        </article>
-
-        <article class="poem">
-          <h3 class="poem__title">What the River Knows</h3>
-          <p class="poem__body">
-            It does not argue with the stone.<br />
-            It simply finds another way,<br />
-            and carries what it cannot move<br />
-            a little further every day.<br />
-            Be patient, then, with your own grief &mdash;<br />
-            water, too, was taught by leaving.
-          </p>
-          <p class="poem__meta">from <em>Tideline</em></p>
-        </article>
-
-        <article class="poem">
-          <h3 class="poem__title">Inventory</h3>
-          <p class="poem__body">
-            One chair, warm from your sitting.<br />
-            One window, full of borrowed sky.<br />
-            One cup, the chip you said gave it character.<br />
-            How rich a quiet room can be<br />
-            when you decide to notice it.
-          </p>
-          <p class="poem__meta">from <em>Held Light</em></p>
-        </article>
-      </div>
-
-      <p class="poems__note">
-        <em>Placeholder poems &mdash; swap these for your own favourites.</em>
-      </p>
-    </div>
-  </section>
-
-  <!-- ===== Collections / Books ===== -->
+  <!-- ===== Books ===== -->
   <section class="section section--warm" id="books">
     <div class="container">
       <header class="section__head">
-        <p class="section__kicker">The collections</p>
-        <h2 class="section__title">Books to keep</h2>
-        <p class="section__sub">Every collection is available on Apple&nbsp;Books. Cover art shown below is a placeholder &mdash; drop your real covers into the <code>images/</code> folder.</p>
+        <p class="section__kicker" data-i18n="books_kicker">Los libros</p>
+        <h2 class="section__title" data-i18n="books_title">Mis colecciones</h2>
+        <p class="section__sub" data-i18n="books_sub">Cada portada enlaza a su página en Apple&nbsp;Books.</p>
       </header>
 
+      <h3 class="series__title" data-i18n="group_es">Serie en español — «En el camino hacia tu corazón»</h3>
       <div class="books">
-        <!-- Book 1 -->
         <article class="book">
-          <a class="book__cover" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener" aria-label="Small Hours on Apple Books">
-            <span class="book__cover-placeholder" data-title="Small Hours">
-              <span class="book__cover-label">Small Hours</span>
-              <span class="book__cover-hint">cover image</span>
-            </span>
+          <a class="book__cover" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/9e/69/1e/9e691e4f-3f8c-b7e9-2763-80d79650bbcc/e412d349-4ead-4795-a119-bd15a8ba7187_cover_image.jpg/600x900bb.jpg" alt="Navegando hacia vos — portada" />
           </a>
           <div class="book__info">
-            <h3 class="book__title">Small Hours</h3>
-            <p class="book__desc">Poems for the quiet end of the day, when the house finally exhales.</p>
-            <a class="btn btn--small" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener">Buy on Apple&nbsp;Books</a>
+            <h4 class="book__title">Navegando hacia vos</h4>
+            <p class="book__year">2025</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
           </div>
         </article>
 
-        <!-- Book 2 -->
         <article class="book">
-          <a class="book__cover" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener" aria-label="Tideline on Apple Books">
-            <span class="book__cover-placeholder book__cover-placeholder--2" data-title="Tideline">
-              <span class="book__cover-label">Tideline</span>
-              <span class="book__cover-hint">cover image</span>
-            </span>
+          <a class="book__cover" href="https://books.apple.com/us/book/la-mirada-que-cautiv%C3%B3-mi-coraz%C3%B3n/id6749814800" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/34/2a/55/342a557c-9d83-e17e-a7e4-86e0ec0a01fc/60ab0b4e-810c-43a9-adab-9f6f3d94881a_cover_image.jpg/600x900bb.jpg" alt="La mirada que cautivó mi corazón — portada" />
           </a>
           <div class="book__info">
-            <h3 class="book__title">Tideline</h3>
-            <p class="book__desc">On water, distance, and learning to let things go where they need to.</p>
-            <a class="btn btn--small" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener">Buy on Apple&nbsp;Books</a>
+            <h4 class="book__title">La mirada que cautivó mi corazón</h4>
+            <p class="book__year">2025</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/la-mirada-que-cautiv%C3%B3-mi-coraz%C3%B3n/id6749814800" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
           </div>
         </article>
 
-        <!-- Book 3 -->
         <article class="book">
-          <a class="book__cover" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener" aria-label="Held Light on Apple Books">
-            <span class="book__cover-placeholder book__cover-placeholder--3" data-title="Held Light">
-              <span class="book__cover-label">Held Light</span>
-              <span class="book__cover-hint">cover image</span>
-            </span>
+          <a class="book__cover" href="https://books.apple.com/us/book/bajo-tu-cielo/id6755614168" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/e0/c8/df/e0c8dfd1-3ef3-0f37-bc30-c8215e3bb80a/fe9e80de-38c5-4e7a-8b86-4a2bc1b2593b_cover_image.jpg/600x900bb.jpg" alt="Bajo tu cielo — portada" />
           </a>
           <div class="book__info">
-            <h3 class="book__title">Held Light</h3>
-            <p class="book__desc">Small gratitudes &mdash; the warmth we almost walk past without seeing.</p>
-            <a class="btn btn--small" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener">Buy on Apple&nbsp;Books</a>
+            <h4 class="book__title">Bajo tu cielo</h4>
+            <p class="book__year">2025</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/bajo-tu-cielo/id6755614168" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
+          </div>
+        </article>
+
+        <article class="book">
+          <a class="book__cover" href="https://books.apple.com/us/book/en-tu-b%C3%BAsqueda/id6758682352" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/f7/1b/80/f71b8073-3a63-8361-adfc-96a9838bd0ec/54c4a5af-d18a-4f46-b674-947aaa392d22_cover_image.jpg/600x900bb.jpg" alt="En tu búsqueda — portada" />
+          </a>
+          <div class="book__info">
+            <h4 class="book__title">En tu búsqueda</h4>
+            <p class="book__year">2026</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/en-tu-b%C3%BAsqueda/id6758682352" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
+          </div>
+        </article>
+
+        <article class="book">
+          <a class="book__cover" href="https://books.apple.com/us/book/contigo-por-siempre/id6768138370" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/56/53/81/56538117-41cf-a79b-bd2d-bb0b868bf2d8/0506cb1c-abed-411a-a996-7c3b3ac5f389_cover_image.jpg/600x900bb.jpg" alt="Contigo por siempre — portada" />
+          </a>
+          <div class="book__info">
+            <h4 class="book__title">Contigo por siempre</h4>
+            <p class="book__year">2026</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/contigo-por-siempre/id6768138370" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
+          </div>
+        </article>
+
+        <article class="book">
+          <a class="book__cover" href="https://books.apple.com/us/book/por-todos-los-huequitos-que-no-podes-ver/id6771992362" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/c3/34/75/c3347506-be6a-193b-b913-c9211a83a9ea/26f5f518-1777-4863-9913-abd7874f8f11_cover_image.jpg/600x900bb.jpg" alt="Por todos los huequitos que no podes ver — portada" />
+          </a>
+          <div class="book__info">
+            <h4 class="book__title">Por todos los huequitos que no podes ver</h4>
+            <p class="book__year">2026</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/por-todos-los-huequitos-que-no-podes-ver/id6771992362" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
           </div>
         </article>
       </div>
+
+      <h3 class="series__title" data-i18n="group_en">Serie en inglés — «On the road to your heart»</h3>
+      <div class="books">
+        <article class="book">
+          <a class="book__cover" href="https://books.apple.com/us/book/the-gaze-that-captivated-my-heart/id6749814744" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/c6/e0/1e/c6e01e31-bc7b-efe2-bc08-fade3d4d8c89/dbcf0f8f-0346-4859-9666-ed4e906c72e2_cover_image.jpg/600x900bb.jpg" alt="The Gaze That Captivated My Heart — cover" />
+          </a>
+          <div class="book__info">
+            <h4 class="book__title">The Gaze That Captivated My Heart</h4>
+            <p class="book__year">2025</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/the-gaze-that-captivated-my-heart/id6749814744" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
+          </div>
+        </article>
+
+        <article class="book">
+          <a class="book__cover" href="https://books.apple.com/us/book/sailing-to-you/id6749962720" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/83/0d/84/830d8421-e3ed-c257-04c3-1c95e14f3bd2/8e03fd1a-47cf-49bc-a3de-a3ed5120e7f8_cover_image.jpg/600x900bb.jpg" alt="Sailing to You — cover" />
+          </a>
+          <div class="book__info">
+            <h4 class="book__title">Sailing to You</h4>
+            <p class="book__year">2025</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/sailing-to-you/id6749962720" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
+          </div>
+        </article>
+
+        <article class="book">
+          <a class="book__cover" href="https://books.apple.com/us/book/beneath-your-sky/id6755614440" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/cb/3c/c7/cb3cc717-2f9a-7248-b0b4-ba4a7ddf8bbd/5e2b2b2c-6512-48fd-ac44-1d66786f4f45_cover_image.jpg/600x900bb.jpg" alt="Beneath Your Sky — cover" />
+          </a>
+          <div class="book__info">
+            <h4 class="book__title">Beneath Your Sky</h4>
+            <p class="book__year">2025</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/beneath-your-sky/id6755614440" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
+          </div>
+        </article>
+
+        <article class="book">
+          <a class="book__cover" href="https://books.apple.com/us/book/in-search-of-you/id6758683567" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/26/59/ca/2659ca70-a32e-b606-6302-e36ecff5d807/d586c77f-354c-41b7-ae29-f7fe515b9038_cover_image.jpg/600x900bb.jpg" alt="In Search of You — cover" />
+          </a>
+          <div class="book__info">
+            <h4 class="book__title">In Search of You</h4>
+            <p class="book__year">2026</p>
+            <a class="btn btn--small" href="https://books.apple.com/us/book/in-search-of-you/id6758683567" target="_blank" rel="noopener" data-i18n="buy">Comprar en Apple&nbsp;Books</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Reviews / Collections ===== -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <header class="section__head">
+        <p class="section__kicker" data-i18n="reviews_kicker">Reseñas</p>
+        <h2 class="section__title" data-i18n="reviews_title">Lo que dicen los lectores</h2>
+        <p class="section__sub" data-i18n="reviews_sub">Críticas y comentarios sobre cada libro.</p>
+      </header>
+
+      <div class="reviews">
+        <blockquote class="review">
+          <p class="review__text" data-i18n="review_ph">«Tu reseña aparecerá aquí. Envíame las críticas de cada libro y las coloco en esta sección.»</p>
+          <footer class="review__by" data-i18n="review_book">— Sobre un libro</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p class="review__text" data-i18n="review_ph">«Tu reseña aparecerá aquí. Envíame las críticas de cada libro y las coloco en esta sección.»</p>
+          <footer class="review__by" data-i18n="review_book">— Sobre un libro</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p class="review__text" data-i18n="review_ph">«Tu reseña aparecerá aquí. Envíame las críticas de cada libro y las coloco en esta sección.»</p>
+          <footer class="review__by" data-i18n="review_book">— Sobre un libro</footer>
+        </blockquote>
+      </div>
+      <p class="reviews__note" data-i18n="reviews_note">(Espacio reservado — envíame los textos de tus reseñas y los coloco aquí.)</p>
     </div>
   </section>
 
   <!-- ===== About ===== -->
-  <section class="section" id="about">
+  <section class="section section--warm" id="about">
     <div class="container about">
       <div class="about__portrait">
         <span class="about__portrait-placeholder">
-          <span class="book__cover-hint">your photo</span>
+          <span class="ph-hint" data-i18n="about_photo">tu foto</span>
         </span>
       </div>
       <div class="about__text">
-        <p class="section__kicker">About</p>
-        <h2 class="section__title">Hello, I'm Mac.</h2>
-        <p>
-          I've been writing poems for as long as I can remember &mdash; on receipts,
-          in the margins of books, on the backs of my hands. These collections are
-          the ones I finally decided to gather up and share.
-        </p>
-        <p>
-          If a poem here finds you at the right moment, that's the whole point.
-          Thank you for reading, and for slowing down long enough to.
-        </p>
-        <a class="btn" href="https://books.apple.com/us/book/navegando-hacia-vos/id6749962761" target="_blank" rel="noopener">Find every collection on Apple&nbsp;Books</a>
+        <p class="section__kicker" data-i18n="nav_about">Sobre mí</p>
+        <h2 class="section__title" data-i18n="about_title">Hola, soy Marcelo Rioja.</h2>
+        <p data-i18n="about_body1">Escribo poesía sobre el amor que atraviesa el tiempo y la distancia. Estos poemas nacieron de una mirada de apenas dos segundos y de cuarenta y seis años de espera.</p>
+        <p data-i18n="about_body2">Cada colección es un viaje de palabras hacia un único destino: su corazón. Gracias por leer.</p>
+        <a class="btn" href="https://books.apple.com/us/author/marcelo-rioja/id1832253609" target="_blank" rel="noopener" data-i18n="about_cta">Ver todos los libros en Apple&nbsp;Books</a>
       </div>
     </div>
   </section>
@@ -193,15 +227,122 @@
   <!-- ===== Footer ===== -->
   <footer class="footer">
     <div class="container footer__inner">
-      <p class="footer__brand">Mac<span class="nav__brand-dot">.</span></p>
-      <p class="footer__copy">&copy; <span id="year"></span> Mac. All poems are the author's own.</p>
-      <a class="footer__top" href="#top">Back to top &uarr;</a>
+      <p class="footer__brand">Marcelo Rioja<span class="nav__brand-dot">.</span></p>
+      <p class="footer__copy">&copy; <span id="year"></span> Marcelo Rioja. <span data-i18n="footer_rights">Todos los poemas son del autor.</span></p>
+      <a class="footer__top" href="#top" data-i18n="footer_top">Volver arriba &uarr;</a>
     </div>
   </footer>
 
   <script>
+    /* ---- i18n dictionary ---- */
+    const I18N = {
+      es: {
+        nav_books: "Libros", nav_reviews: "Reseñas", nav_about: "Sobre mí",
+        hero_eyebrow: "Poesía · Versos de amor y distancia",
+        hero_title: "Palabras que navegan<br />hacia tu corazón.",
+        hero_lede: "Soy Marcelo Rioja. Escribo poemas de amor, nostalgia y la belleza del universo — colecciones que cruzan el tiempo y la distancia. Aquí están todos mis libros, disponibles en Apple Books.",
+        hero_cta_books: "Ver los libros",
+        cta_apple: "Comprar en Apple Books",
+        books_kicker: "Los libros", books_title: "Mis colecciones",
+        books_sub: "Cada portada enlaza a su página en Apple Books.",
+        group_es: "Serie en español — «En el camino hacia tu corazón»",
+        group_en: "Serie en inglés — «On the road to your heart»",
+        buy: "Comprar en Apple Books",
+        reviews_kicker: "Reseñas", reviews_title: "Lo que dicen los lectores",
+        reviews_sub: "Críticas y comentarios sobre cada libro.",
+        review_ph: "«Tu reseña aparecerá aquí. Envíame las críticas de cada libro y las coloco en esta sección.»",
+        review_book: "— Sobre un libro",
+        reviews_note: "(Espacio reservado — envíame los textos de tus reseñas y los coloco aquí.)",
+        about_photo: "tu foto",
+        about_title: "Hola, soy Marcelo Rioja.",
+        about_body1: "Escribo poesía sobre el amor que atraviesa el tiempo y la distancia. Estos poemas nacieron de una mirada de apenas dos segundos y de cuarenta y seis años de espera.",
+        about_body2: "Cada colección es un viaje de palabras hacia un único destino: su corazón. Gracias por leer.",
+        about_cta: "Ver todos los libros en Apple Books",
+        footer_rights: "Todos los poemas son del autor.",
+        footer_top: "Volver arriba ↑"
+      },
+      en: {
+        nav_books: "Books", nav_reviews: "Reviews", nav_about: "About",
+        hero_eyebrow: "Poetry · Verses of love and distance",
+        hero_title: "Words that sail<br />toward your heart.",
+        hero_lede: "I'm Marcelo Rioja. I write poems of love, longing, and the beauty of the universe — collections that cross time and distance. Here are all my books, available on Apple Books.",
+        hero_cta_books: "Browse the books",
+        cta_apple: "Buy on Apple Books",
+        books_kicker: "The books", books_title: "My collections",
+        books_sub: "Each cover links to its page on Apple Books.",
+        group_es: "Spanish series — “En el camino hacia tu corazón”",
+        group_en: "English series — “On the road to your heart”",
+        buy: "Buy on Apple Books",
+        reviews_kicker: "Reviews", reviews_title: "What readers say",
+        reviews_sub: "Critiques and comments on each book.",
+        review_ph: "“Your review will appear here. Send me the critiques for each book and I'll place them in this section.”",
+        review_book: "— About a book",
+        reviews_note: "(Placeholder — send me your review texts and I'll place them here.)",
+        about_photo: "your photo",
+        about_title: "Hello, I'm Marcelo Rioja.",
+        about_body1: "I write poetry about love that crosses time and distance. These poems were born from a two-second glance and forty-six years of waiting.",
+        about_body2: "Each collection is a journey of words toward a single destination: her heart. Thank you for reading.",
+        about_cta: "See all books on Apple Books",
+        footer_rights: "All poems are the author's own.",
+        footer_top: "Back to top ↑"
+      },
+      de: {
+        nav_books: "Bücher", nav_reviews: "Rezensionen", nav_about: "Über mich",
+        hero_eyebrow: "Poesie · Verse über Liebe und Ferne",
+        hero_title: "Worte, die zu deinem<br />Herzen segeln.",
+        hero_lede: "Ich bin Marcelo Rioja. Ich schreibe Gedichte über Liebe, Sehnsucht und die Schönheit des Universums — Sammlungen, die Zeit und Ferne überbrücken. Hier sind alle meine Bücher, erhältlich bei Apple Books.",
+        hero_cta_books: "Bücher ansehen",
+        cta_apple: "Bei Apple Books kaufen",
+        books_kicker: "Die Bücher", books_title: "Meine Sammlungen",
+        books_sub: "Jedes Cover führt zu seiner Seite bei Apple Books.",
+        group_es: "Spanische Reihe — „En el camino hacia tu corazón“",
+        group_en: "Englische Reihe — „On the road to your heart“",
+        buy: "Bei Apple Books kaufen",
+        reviews_kicker: "Rezensionen", reviews_title: "Was Leser sagen",
+        reviews_sub: "Kritiken und Kommentare zu jedem Buch.",
+        review_ph: "„Deine Rezension erscheint hier. Schick mir die Kritiken zu jedem Buch und ich füge sie in diesen Abschnitt ein.“",
+        review_book: "— Über ein Buch",
+        reviews_note: "(Platzhalter — schick mir deine Rezensionstexte und ich füge sie hier ein.)",
+        about_photo: "dein Foto",
+        about_title: "Hallo, ich bin Marcelo Rioja.",
+        about_body1: "Ich schreibe Gedichte über die Liebe, die Zeit und Ferne überwindet. Diese Gedichte entstanden aus einem nur zwei Sekunden langen Blick und sechsundvierzig Jahren des Wartens.",
+        about_body2: "Jede Sammlung ist eine Reise der Worte zu einem einzigen Ziel: ihrem Herzen. Danke fürs Lesen.",
+        about_cta: "Alle Bücher bei Apple Books ansehen",
+        footer_rights: "Alle Gedichte stammen vom Autor.",
+        footer_top: "Nach oben ↑"
+      }
+    };
+
+    function setLang(lang) {
+      const dict = I18N[lang] || I18N.es;
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const k = el.getAttribute('data-i18n');
+        if (dict[k] !== undefined) el.textContent = dict[k];
+      });
+      document.querySelectorAll('[data-i18n-html]').forEach(el => {
+        const k = el.getAttribute('data-i18n-html');
+        if (dict[k] !== undefined) el.innerHTML = dict[k];
+      });
+      document.querySelectorAll('.lang__btn').forEach(b =>
+        b.classList.toggle('is-active', b.dataset.lang === lang));
+      try { localStorage.setItem('mr_lang', lang); } catch (e) {}
+    }
+
+    document.querySelectorAll('.lang__btn').forEach(b =>
+      b.addEventListener('click', () => setLang(b.dataset.lang)));
+
     // Footer year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Initial language: saved choice → browser language → Spanish
+    let initial = 'es';
+    try { initial = localStorage.getItem('mr_lang') || initial; } catch (e) {}
+    if (!localStorage.getItem || !localStorage.getItem('mr_lang')) {
+      const nav = (navigator.language || 'es').slice(0, 2);
+      if (['es', 'en', 'de'].includes(nav)) initial = nav;
+    }
+    setLang(initial);
 
     // Mobile nav toggle
     const toggle = document.querySelector('.nav__toggle');
